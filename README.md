@@ -2,11 +2,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark-theme.png" />
     <source media="(prefers-color-scheme: light)" srcset="assets/logo-light-theme.png" />
-    <img src="assets/logo-light-theme.png" alt="CodeStage" width="80" />
+    <img src="assets/logo-light-theme.png" alt="Collaborative Coding" width="80" />
   </picture>
 </p>
 
-<h1 align="center">CodeStage</h1>
+<h1 align="center">Collaborative Coding</h1>
 
 <p align="center">
   Real-time collaborative coding interview platform
