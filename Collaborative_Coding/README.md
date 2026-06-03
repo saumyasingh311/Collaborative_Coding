@@ -33,16 +33,6 @@
 
 <br />
 
-## Demo
-
-<p align="center">
-  <img src="assets/demo.gif" alt="CodeStage Demo" width="800" />
-</p>
-
-> [Watch the full demo video](https://youtu.be/dcWqru1yc9w)
-
-<br />
-
 ## Features
 
 **For Interviewers**
