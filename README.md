@@ -240,38 +240,7 @@ cd codestage-server
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Project Structure
 
-```
-codestage/
-├── codestage-client/           # React frontend
-│   ├── src/
-│   │   ├── components/         # UI components
-│   │   ├── lib/                # Utilities and API client
-│   │   ├── routes/             # TanStack Router pages
-│   │   └── stores/             # Zustand state
-│   ├── Dockerfile
-│   └── package.json
-│
-├── codestage-server/           # Spring Boot backend
-│   ├── src/main/java/.../
-│   │   ├── auth/               # JWT and OAuth2
-│   │   ├── config/             # Spring configuration
-│   │   ├── controllers/        # REST and WebSocket
-│   │   ├── models/             # Entities and DTOs
-│   │   ├── repository/         # JPA repositories
-│   │   └── services/           # Business logic
-│   ├── src/main/resources/
-│   │   ├── db/migration/       # Flyway migrations
-│   │   └── templates/          # Email templates
-│   ├── Dockerfile
-│   └── pom.xml
-│
-├── docker-compose.yml
-└── README.md
-```
-
-<br />
 
 ## API Reference
 
