@@ -2,11 +2,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark-theme.png" />
     <source media="(prefers-color-scheme: light)" srcset="assets/logo-light-theme.png" />
-    <img src="assets/logo-light-theme.png" alt="CodeStage" width="80" />
+    <img src="assets/logo-light-theme.png" alt="Collaborative Coding" width="80" />
   </picture>
 </p>
 
-<h1 align="center">CodeStage</h1>
+<h1 align="center">Collaborative Coding</h1>
 
 <p align="center">
   Real-time collaborative coding interview platform
@@ -240,38 +240,7 @@ cd codestage-server
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Project Structure
 
-```
-codestage/
-├── codestage-client/           # React frontend
-│   ├── src/
-│   │   ├── components/         # UI components
-│   │   ├── lib/                # Utilities and API client
-│   │   ├── routes/             # TanStack Router pages
-│   │   └── stores/             # Zustand state
-│   ├── Dockerfile
-│   └── package.json
-│
-├── codestage-server/           # Spring Boot backend
-│   ├── src/main/java/.../
-│   │   ├── auth/               # JWT and OAuth2
-│   │   ├── config/             # Spring configuration
-│   │   ├── controllers/        # REST and WebSocket
-│   │   ├── models/             # Entities and DTOs
-│   │   ├── repository/         # JPA repositories
-│   │   └── services/           # Business logic
-│   ├── src/main/resources/
-│   │   ├── db/migration/       # Flyway migrations
-│   │   └── templates/          # Email templates
-│   ├── Dockerfile
-│   └── pom.xml
-│
-├── docker-compose.yml
-└── README.md
-```
-
-<br />
 
 ## API Reference
 
